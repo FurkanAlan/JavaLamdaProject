@@ -30,3 +30,24 @@ class ArraySorter {
                 .collect(Collectors.toList());
     }
 }
+
+//:: is called Method Reference. It is basically a reference to a single method. i.e. it refers to an existing method by name. Method reference using :: is a convenience operator. Method reference is one of the features belonging to Java lambda expressions.Nov 19, 2014
+//
+//Meaning of :: in Java syntax - Stack Overflow
+//        newFooterList.forEach(System.out::println);
+
+//n method definition, ‘…’ represents an array. Which means if you define a method like:
+//
+//public static void input(String...array)
+//{
+//	System.out.println(array.length);
+//}
+//You can call the method like this:
+//
+//String[] array = {""};
+//// Array with 0 element
+//input();
+//// Array with one element: ""
+//input(array);
+//// Array with 3 elements: "String 1", "String 2", "String 3"
+//input("String 1", "String 2", "String 3");
